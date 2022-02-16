@@ -20,6 +20,26 @@ function App() {
     },
   })
 
+  var myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+  myHeaders.append("Authorization", "Basic TmV0d29yazo1R1JvdXRlcg==");
+
+  var raw = JSON.stringify({
+    "imei": "351558960136713"
+  });
+
+  var requestOptions = {
+    method: 'POST',
+    headers: myHeaders,
+    body: raw,
+    redirect: 'follow'
+  };
+
+  fetch("https://rdd-qa-east1.ebiz.verizon.com/was/api/oem/fetchDeviceConfig", requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+
   const [imei, setimei] = useState('test');
   const [dataLoading, setDataLoading] = useState(true);
   const operators = collection.item;
