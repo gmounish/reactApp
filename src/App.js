@@ -8,8 +8,18 @@ import samsung from './data/samsung.json';
 import apple from './data/apple.json';
 import Select from 'react-select'
 
+const { createProxyMiddleware } = require("http-proxy-middleware");
 
 function App() {
+
+  createProxyMiddleware({
+    target: "https://rdd-qa-east1.ebiz.verizon.com",
+    changeOrigin: true,
+    headers: {
+      Authorization: "Basic ZXBzdXNlcjpFcHN1JEVy",
+    },
+  })
+
   const [imei, setimei] = useState('test');
   const [dataLoading, setDataLoading] = useState(true);
   const operators = collection.item;
@@ -45,7 +55,7 @@ function App() {
       setActivationData([])
       setProductData([])
     }
-    else if (selectedOperator === 'Apple') {
+    else if (selectedOperator === 'AppleConfigAndActivationDetails') {
       console.log(apple)
       const deviceData = apple.IphoneConfig[0].fetchUnitDetailsResponse.device;
       setDeviceData([
