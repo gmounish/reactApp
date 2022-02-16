@@ -1,0 +1,81 @@
+{
+    "IphoneConfig": [
+        {
+            "fetchUnitDetailsResponse": {
+                "device": {
+                    "productImageURL": "https://km.support.apple.com/kb/securedImage.jsp?size=72x72&configcode=HG00",
+                    "popMandatory": false,
+                    "consumerLawInfo": null,
+                    "identifiers": {
+                        "imei2": null,
+                        "meid": "35947708188053",
+                        "serial": "DX3VF6PEHG00",
+                        "imei": "359477081880533"
+                    },
+                    "configCode": "HG00",
+                    "loaner": false,
+                    "replacementHistory": null,
+                    "loanerStatus": null,
+                    "agreements": null,
+                    "ctoConfiguration": null,
+                    "soldToName": "US CELLULAR",
+                    "warrantyInfo": {
+                        "daysRemaining": 0,
+                        "purchaseCountryCode": null,
+                        "deviceCoverageDetails": null,
+                        "purchaseDate": "2018-01-13T00:00:00Z",
+                        "laborCovered": false,
+                        "contractCoverageEndDate": null,
+                        "purchaseCountryDesc": null,
+                        "contractType": null,
+                        "onsiteStartDate": null,
+                        "csCodeDetails": null,
+                        "warrantyStatusCode": "OO",
+                        "coverageEndDate": null,
+                        "personalized": false,
+                        "coverageStartDate": null,
+                        "limitedWarranty": false,
+                        "onsiteCoverage": false,
+                        "registrationDate": "2018-01-13T00:00:00Z",
+                        "contractCoverageStartDate": null,
+                        "warrantyStatusDescription": "Out Of Warranty (No Coverage)",
+                        "appleCarePlusCoverageAvailabilityIndicator": null,
+                        "onsiteEndDate": null,
+                        "partCovered": false
+                    },
+                    "productLine": "502287",
+                    "activationDetails": {
+                        "iccId2": null,
+                        "nextTetherPolicyDetails": "Multi-Mode Unlock",
+                        "carrier2Name": null,
+                        "lastUnbrickOsBuild": "18G82",
+                        "appliedActivationDetails": "Multi-Mode Unlock",
+                        "lastRestoreDate": "2021-07-29T23:29:58Z",
+                        "initialActivationPolicyID": "2303",
+                        "unlockDate": "2022-02-02T16:13:19Z",
+                        "unlocked": "true",
+                        "appliedActivationPolicyID": "2303",
+                        "firstUnbrickDate": null,
+                        "productVersion": "14.7.1",
+                        "iccId": null,
+                        "macAddress": "B8634D6379AB",
+                        "carrierName": "U.S. Cellular",
+                        "nextTetherPolicyID": "2303",
+                        "initialActivationPolicyDetails": "Multi-Mode Unlock",
+                        "firstActivationDate": "2018-01-13T16:25:31Z",
+                        "csncsn2eId": null,
+                        "productDescription": "IPHONE 7 PLUS BLACK 32GB-USA"
+                    },
+                    "configDescription": "IPHONE 7 PLUS,MM,BLACK 32GB",
+                    "caseDetails": null,
+                    "messages": null,
+                    "id": null,
+                    "slaGroup": null,
+                    "productDescription": "iPhone 7 Plus",
+                    "loanerStatusDescription": null
+                }
+            },
+            "statusCode": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "DeviceConfig": [
+        {
+            "eid": "89043051202200005220000511612894",
+            "imei": "351558960136713",
+            "rawdata": {
+                "ESIM": "89043051202200005220000511612894",
+                "MACAddress": "58D50AFD90D5",
+                "OEM": "RFCN706SVZZ",
+                "IMEI_SND": "352618330136717",
+                "IMEI": "351558960136713",
+                "MEIDHex": "35155896013671",
+                "Material": "SM-N981UZAAATT",
+                "MODEL": "SM-N981U",
+                "CUSTOMERSKU": "6535C",
+                "MEIDDec": "089059138200079473"
+            },
+            "statusCode": 200
+        }
+    ]
+}
